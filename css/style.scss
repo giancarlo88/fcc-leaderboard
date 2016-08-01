@@ -1,0 +1,71 @@
+ @import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+$mainColor: #297373;
+$altColor: #e9d758;
+$hilight: #ff8552;
+$txtColor: #39393a;
+$lightColor: #e6e6e6;
+$otherLightColor: #e8eef2;
+
+
+body {
+    color: $txtColor;
+    background: $mainColor;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.username {
+    text-align: left;
+    display: flex;
+    align-items: center
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+h1 {
+    color:$lightColor;
+    text-align: center;
+}
+
+table {
+        text-align: center;
+        min-width: 60vw;
+        border: 6px solid $altColor;
+        border-collapse: collapse;
+        align-content: center;
+        color: $txtColor
+}
+
+
+
+tbody  tr:nth-child(odd){
+    background-color: $otherLightColor;
+}
+
+tbody tr:nth-child(even){
+    background-color:$lightColor;
+}
+
+th {
+    cursor: pointer;
+    vertical-align: bottom;
+    background-color: $altColor;
+    font-size: 24px;
+    height: 2em;
+    transition: .3s ease;
+    &:hover {
+        color: $hilight;
+        transition: .3s ease;
+    }
+}

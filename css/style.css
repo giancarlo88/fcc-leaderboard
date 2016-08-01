@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+/* line 11, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+body {
+  color: #39393a;
+  background: #297373;
+  font-family: Montserrat, sans-serif; }
+
+/* line 17, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center; }
+
+/* line 25, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+.username {
+  text-align: left;
+  display: flex;
+  align-items: center; }
+
+/* line 31, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+img {
+  height: 30px;
+  width: 30px; }
+
+/* line 36, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+h1 {
+  color: #e6e6e6;
+  text-align: center; }
+
+/* line 41, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+table {
+  text-align: center;
+  min-width: 60vw;
+  border: 6px solid #e9d758;
+  border-collapse: collapse;
+  align-content: center;
+  color: #39393a; }
+
+/* line 52, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+tbody tr:nth-child(odd) {
+  background-color: #e8eef2; }
+
+/* line 56, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6; }
+
+/* line 60, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+th {
+  cursor: pointer;
+  vertical-align: bottom;
+  background-color: #e9d758;
+  font-size: 24px;
+  height: 2em;
+  transition: .3s ease; }
+  /* line 67, /Users/gcgp88/Documents/Web/leaderboard/css/style.scss */
+  th:hover {
+    color: #ff8552;
+    transition: .3s ease; }
+
+/*# sourceMappingURL=style.css.map */
